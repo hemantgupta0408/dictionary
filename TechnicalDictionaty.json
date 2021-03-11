@@ -1,0 +1,40 @@
+{
+  "computer": {
+    "DOMAIN": null,
+    "USAGE": [
+      "वर्तमान युग मे संगणक का हर जगह उपयोग होता है।"
+    ],
+    "RELATED": [],
+    "TRANSLATION": {
+      "HINDI": "संगणक"
+    }
+  },
+  "electron": {
+    "DOMAIN": null,
+    "USAGE": [
+      "इलेक्ट्रॉन परमाणु मे पाया जाने वाला अति-सूक्षम कण है।"
+    ],
+    "RELATED": [],
+    "TRANSLATION": {
+      "HINDI": "इलेक्ट्रॉन"
+    }
+  },
+  "signal": {
+    "DOMAIN": null,
+    "USAGE": [],
+    "RELATED": [],
+    "TRANSLATION": {
+      "HINDI": "संकेत"
+    }
+  },
+  "theorem": {
+    "DOMAIN": null,
+    "USAGE": [
+      "पायथागोरस प्रमेय समकोण त्रिभुज के लिए है."
+    ],
+    "RELATED": [],
+    "TRANSLATION": {
+      "HINDI": "प्रमेय"
+    }
+  }
+}

@@ -18,11 +18,15 @@ def base():
 def index(): 
     with open("config.json") as c:
         params = json.load(c)['params']
-    if request.method == 'POST':
-        text = request.form.get('word')
-        mean = params[text][0]
-        uses = params[text][1]
-        rword = params[text][2]   
+    text = request.form.get('word')
+    if text in params:
+        if request.method == 'POST':
+            text = request.form.get('word')
+            mean = params[text][0]
+            uses = params[text][1]
+            rword = params[text][2]  
+    else:
+        return ("Word dictionary mein nhi hai re bhawa....") 
     return render_template('index.html' , params=params , text=text , uses=uses , mean=mean , rword=rword)
     
 
@@ -67,5 +71,17 @@ def edit(text):
         
     return render_template('edit.html' , params = params  , text=text , usess=usess , mean=mean , rwords=rwords)
 
+@app.route('/delete/<string:text>' , methods=['GET' , 'POST'] )
+def delete(text):
+    filename = os.path.join('config.json')
+    with open(filename, "r") as f:
+        data = json.load(f)
 
+    if text in data['params']:
+        del data['params'][text]
+
+    with open(filename, "w") as file:
+        json.dump(data, file , indent=4 , sort_keys=True)
+    flash("Word Delete Successfully", "success")   
+    return redirect('/')
 app.run( use_reloader=True,debug=True, port=5000 )

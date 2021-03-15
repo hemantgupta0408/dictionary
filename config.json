@@ -1,9 +1,34 @@
 {
     "params": {
+        "": [
+            "",
+            "",
+            ""
+        ],
+        "abhishek": [
+            "abhi",
+            "hghghgh",
+            "hghghghg"
+        ],
+        "akash": [
+            "aashmaan",
+            "dekhte hai",
+            "sky"
+        ],
         "blanket": [
-            "chadar",
-            "odne ke liye",
-            "nope"
+            "ghadha",
+            "time btati hai",
+            "nhi hai"
+        ],
+        "bottle": [
+            "batal",
+            "pani",
+            "pina hai"
+        ],
+        "charger": [
+            "kuch bhi daal de",
+            "kahi bhi likh de",
+            ""
         ],
         "dada": [
             "phelwan",
@@ -16,24 +41,39 @@
             ""
         ],
         "good": [
-            "Accha",
-            "for compliments",
-            "better , best"
+            "acchaaaaaaaa",
+            "compliment",
+            "better hai , best hai"
+        ],
+        "guitar": [
+            "gggg",
+            "dddd",
+            "fdfdfd"
         ],
         "hole": [
-            "chhidda",
-            "for enter something",
-            "nope"
+            "chhida",
+            "keel",
+            "jai"
         ],
         "honey": [
-            "sahad",
-            "for mithas",
-            "nahi hai"
+            "good boy",
+            "kuch bhi nhi krta hai",
+            "kuch bhi nahi hai"
         ],
         "ice": [
-            "barf",
-            "khate hai apun",
-            "nhi hai"
+            "barf barf",
+            "khate hai apun nhi hai ",
+            "nhi hai ja re"
+        ],
+        "jai": [
+            "maiyaa",
+            "ki",
+            "bolo"
+        ],
+        "king": [
+            "raja",
+            "praja",
+            "hnji"
         ],
         "mangluu": [
             "abhishek",
@@ -41,19 +81,54 @@
             ""
         ],
         "navdeep": [
-            "ghadha",
-            "kuch bhi nhi krta hai",
-            "milega hi nhi"
+            "bada ghadha hai",
+            "kuch bhi ",
+            "kuch bhi nahi hai"
+        ],
+        "pillow": [
+            "takiya",
+            "sir rakhte hai",
+            ""
+        ],
+        "poly": [
+            "thin",
+            "contain something",
+            "thaila"
+        ],
+        "sofa": [
+            "soaufa",
+            "soaaaufaa",
+            "sss"
+        ],
+        "stool": [
+            "fgd",
+            "fgdfg",
+            "fgfdgd"
+        ],
+        "sugar": [
+            "sakkar hai",
+            "mithas ke liye",
+            "ganna"
         ],
         "teddy": [
             "mr bean",
             "pagal he",
             ""
         ],
+        "tree": [
+            "pedh",
+            "plant hai",
+            ""
+        ],
+        "wall": [
+            "diwaar",
+            "abhitabh",
+            "bachhhan"
+        ],
         "watch": [
             "ghadi",
             "time btati hai",
-            "nhi hai"
+            "kuch bhi nahi hai"
         ]
     }
 }

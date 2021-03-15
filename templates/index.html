@@ -18,7 +18,7 @@
         <h1><b>Welcome to Our Dictionary</b></h1>
     </div>
     <div class="container-fluid">
-        <form class="row g-3">
+        <form class="row g-3" method="POST">
             <div class="col-12">
                 <label for="word" class="form-label">English Word :</label>
                 <input type="text" class="form-control" id="word" name="word" value="{{text}}" readonly>
@@ -36,13 +36,18 @@
                 <label for="rword" class="form-label">Related Word :</label>
                 <input type="text" class="form-control" id="rword" name="rword" placeholder="Related Word" value="{{rword}}" readonly>
             </div>
-            <div class="col-md-6">
-                <button type="submit" class="btn btn-primary">Edit</button>
-            </div>
-            <div class="col-md-6">
-                <a class="btn btn-primary" href="/delete/{{word}}" role="button">Remove</a>
-            </div>
         </form>
+        <div>
+        <div class="col-md-4 my-2">
+            <a class="btn btn-outline-warning" href="/edit/{{text}}" role="button">Edit</a>
+        </div>
+        <div class="col-md-4 my-2">
+            <a class="btn btn-outline-danger" href="/delete/{{text}}" role="button">Remove</a>
+        </div>
+        <div class="col-md-4 my-2">
+            <a class="btn btn-outline-dark" href="/" role="button">Back</a>
+        </div>
+    </div>
     </div>
 
 
